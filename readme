@@ -1,0 +1,190 @@
+<:Running Treebank in Terminal:>
+
+1.Treebank.py:
+This code is used to generate query or access information from Treebank database. For generate query you give choice number and input according to query and get the output.
+For run this code in command line type:
+     python3 Treebank.py
+_______________________________________________________________________________________________________________________________________________
+
+<: Options in List :>
+
+1. Choice (To obtain vibhakti and it corresponding karak-lists.)
+The list of karak corresponding vibhakti is given by this option. Vibhakti is given by user. A plain text format output file is created which store output and name of output file is also given by user.For example if the name of file is given as "Output1" then full path for file is:
+	/Treebank_Output/Output1
+The list of corresponding sentences store in other output file and the name of output file is given by user.For example if name of output file is 'Output2' then full path for file is:
+	/Treebank_Output/output2
+The list of corresponding word relation in sentences store in output file and the name of output file is given by user. For example if name of output file is 'output3' then full path for file is:
+	/Treebank_Output/output3
+
+2. Choice (To obtain sentences corresponding to vibhakti and karak.)
+The list of sentences corresponding vibhakti and karak is store in output file and the name of output file is given by user.For example if name of output file is 'Output1' then full path for file is:
+	/Treebank_Output/Output1
+The list of corresponding word relation in sentences store in other output file and the name of output file is given by user.For example if name of output file is 'Output2' then full path for file is:
+	/Treebank_Output/Output2
+
+3. Choice (To extract words of given POS or category and karak having relation with verb.)
+The list of words corresponding to karak and Part of speech(POS) or category is store in output file and the name of output file is given by user.For example if name of output file is 'Output1' then full path for file is:
+	/Treebank_Output/Output1
+The list of sentences of above output is store in other output file and the name of output file is given by user.For example if name of output file is 'Output2' then full path for file is: 
+	/Treebank_Output/Output2
+The list of word relation in sentences store in other output file and the name of output file is given by user.For example if name of output file is 'Output3' then full path for file is:
+	/Treebank_Output/Output3
+
+4.Choice (To extract vibhakti corresponding to given POS or category.)
+The list of Vibhakti corresponding to Part of Speech (POS) or category is store in output file and the name of output file is given by user.For example if name of output file is 'Output1' then full path for file is:
+	/Treebank_Output/Output1
+The list of sentences of above output is store in other output file and the name of output file is given by user.For example if name of output file is 'Output2' then full path for file is:
+	/Treebank_Output/Output2
+The list of word relation in sentences store in other output file and the name of output file is given by user.For example if name of output file is 'Output3' then full path for file is:
+	/Treebank_Output/Output3
+
+5. Choice (To extract verb (without pof) corresponding to given vibhakti and karak.)
+The list of verb corresponding to vibhakti and karak is store in output file and the name of output file is given by user.For example if name of output file is 'Output1' then full path for file is:
+	/Treebank_Output/Output1
+The list of sentences of above output is store in other output file and the name of output file is given by user.For example if name of output file is 'Output2' then full path for file is:
+	/Treebank_Output/Output2
+The list of word relation in sentences store in other output file and the name of output file is given by user.For example if name of output file is 'Output3' then full path for file is:
+	/Treebank_Output/Output3
+
+6. Choice (To extract modifierchunk of given karak relation.)
+The list of verb corresponding to karak is store in output file and the name of output file is given by user.For example if name of output file is 'Output1' then full path for file is:
+	/Treebank_Output/Output1
+The list of sentences of above output is store in other output file and the name of output file is given by user.For example if name of output file is 'Output2' then full path for file is:
+	/Treebank_Output/Output2
+The list of word relation in sentences store in other output file and the name of output file is given by user.For example if name of output file is 'Output3' then full path for file is:
+	/Treebank_Output/Output3
+
+7. Choice (To obtain list of sentences which contains a specific word.)
+The list of sentences corresponding to word is store in output file and the name of output file is given by user.For example if name of output file is 'Output1' then full path for file is:
+	/Treebank_Output/Output1
+The list of word relation in sentences store in other output file and the name of output file is given by user.For example if name of output file is 'Output2' then full path for file is:
+	/Treebank_Output/Output2
+
+8. Choice (To extract pof-verb corresponding to given vibhakti and karak.)
+The list of part of fragment  verb corresponding to vibhakti and karak is store in output file and the name of output file is given by user.For example if name of output file is 'Output1' then full path for file is:
+	/Treebank_Output/Output1
+The list of sentences of above output is store in other output file and the name of output file is given by user.For example if name of output file is 'Output2' then full path for file is:
+	/Treebank_Output/Output2
+The list of word relation in sentences store in other output file and the name of output file is given by user.For example if name of output file is 'Output3' then full path for file is:
+	/Treebank_Output/Output3
+
+9.Choice (To extract chunk of given vibhakti and karak relation with chunk.)
+The list of chunk words corresponding to vibhakti and karak is store in output file and the name of output file is given by user.For example if name of output file is 'Output1' then full path for file is:
+	/Treebank_Output/Output1
+The list of sentences of above output is store in other output file and the name of output file is given by user.For example if name of output file is 'Output2' then full path for file is:
+	/Treebank_Output/Output2
+The list of word relation in sentences store in other output file and the name of output file is given by user.For example if name of output file is 'Output3' then full path for file is:
+	/Treebank_Output/Output3
+
+10. Choice (To extract sentences corresponding to given vibhakti and karak and verb.)
+The list of sentences corresponding to vibhakti,karak and verb is store in output file and the name of output file is given by user.For example if name of output file is 'Output1' then full path for file is:
+	/Treebank_Output/Output1
+The list of word relation in sentences store in other output file and the name of output file is given by user.For example if name of output file is 'Output2' then full path for file is:
+	/Treebank_Output/Output2
+
+11. Choice (To extract karak with respect to vibhakti and verb.)
+The list of karak corresponding to vibhakti and verb is store in output file and the name of output file is given by user.For example if name of output file is 'Output1' then full path for file is:
+	/Treebank_Output/Output1
+The list of sentences of above output is store in other output file and the name of output file is given by user.For example if name of output file is 'Output2' then full path for file is:
+	/Treebank_Output/Output2
+The list of word relation in sentences store in other output file and the name of output file is given by user.For example if name of output file is 'Output3' then full path for file is:
+	/Treebank_Output/Output3
+
+12. Choice (To generate a new query.)
+The output of query store in output file and the name of output file is given by user.For example if name of output file is 'Output1' then full path for file is. Full path for file is:
+	/Treebank_Output/Output1
+
+13. Choice(To extract sentence contain given words.)
+The list of sentence store in output file and name of file is given by user. For example if name of output file is 'Output1' then full path for file is. Full path for file is:
+	/Treebank_Output/Output1
+____________________________________________________________________________________________________________________________________________
+
+2.Modules.py:
+This file contain all sql query code which are used to generate query in Treebank.py file. This code is run by Treebank.py file. You do not need to run this code separately.
+############################################################################################################################################# 
+
+<:About Treebank Database:>
+
+Treebank Databse having four tables. These are:-
+1.Tsentence
+2.Tchunk
+3.Tword
+4.Tverb
+
+1.Tsentence:-
+This table contain Sentences of Treebank with there Sentence id and Filename. The description of table field is given below:
+SNo:- Serial Number
+sid:- Sentence id
+sentence:- Sentences
+filename:- Filenames
+
+2.Tchunk:-
+This table contain chunk information of sentences. The description of table is given below:
+SNo:- Serial Number
+sid:- Sentence id
+chunkid:- Chunk id 
+chunktype:- Chunk Tag
+chunkname:- Name of Chunk
+chunkrel:- Dependency Relation of chunk with other chunk in sentence
+relwith:- Name of chunk with which chunk is related
+stype:- Sentence type (for example:-declarative)
+voicetype:- Voice type (for example:-active or passive)
+mtype:- Represent gap and non-gap in sentence.
+dmrel:-
+dmrelwith:-
+troot:- Target root word
+coref:-Co-Reference
+comment:-
+filename:- Name of file
+words:- Words of chunk
+
+3.Tword:-
+This table contain words information of sentences. The description of table is given below:
+SNo:- Serial Number
+sid:- Sentence id
+chunkid:- Chunk id
+wordid:- Word id 
+word:- Word of sentence
+postag:- POS(Part of Speech) tag of Word.
+root:- Root word of a word (For example for 'खाना' root word is 'खा')
+category:- Word category like noun, pronun,verb etc.
+gender:-Gender information like Feminini, Masculine,Any etc.
+number:- Number information like singular,plural etc.
+person:- Person information like first person, second person etc.
+wcase:- Word case
+vibhakti:- Vibhakti
+tam:- Time, Aspect and Modality information
+karak:- karak (k1,k2 etc.)
+modifier:- Modifier (nmod,vmod etc.)
+fragment:- Fragment (pof,ccof etc.)
+symbol:- Symbol (sym etc.) 
+saha:- Saha Vibhakti (ras-k1,ras-k2 etc.)
+shashthi:- Shashthi Information (r6)
+adverbs:- Adverbs Information (sent-adv etc.)
+cause:- Cause Information (jk1,pk1)
+relation:- Relation Information (rs,rh etc.)
+other:- Other karak (nmod__k1inv, nmod__relc)
+rname:- Name of kark Relation
+wrelation:- Word with which present word is related.
+rchunkid:- Chunk id of word related with present word.
+vpos:- Verb Position
+name:- Word Name
+treeposition:- Position of word in sentence tree ( head, child, main etc.).
+chunkname:- Chunk Name of word.
+position:- Position in number (110,120 etc.)
+connection:- Word id of wrelation word.
+filename:- Filename of word.
+
+4.Tverb:-
+This table contain Part of Fragment verb and their information. Description of table is given below:
+SNo:- Serial Number
+sid:- Sentence id
+chunkid:- Chunk id
+wordid:- Word id
+verb:- Root word of verb.
+wverb:- Verb in the sentence.
+word_verb:- Root verb + word in sentence.
+pof:- It is 'True' for pof verb.
+category:- It store 'v' for verb.
+rchunkid:- Chunk id of related word from that word.
+filename:- Filename of verb.
